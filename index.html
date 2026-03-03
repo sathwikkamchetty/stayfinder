@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stay Finder | Student Hostels</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <header>
+  <div class="header-content">
+    <h1>🏠 Stay Finder</h1>
+    <p class="tagline">Find the best student hostels near you.....</p>
+  </div>
+  
+
+  
+</header>
+  
+<button class="signin-btn">Sign In</button>
+</header>
+
+<section class="search-box">
+    <input type="text" id="searchInput" placeholder="Search by city or area">
+    <select id="priceFilter">
+        <option value="all">All Prices</option>
+        <option value="low">Below ₹5000</option>
+        <option value="mid">₹5000 - ₹8000</option>
+        <option value="high">Above ₹8000</option>
+    </select>
+    <button onclick="searchHostels()">Search</button>
+</section>
+
+<section class="hostel-list" id="hostelList">
+    <!-- Hostel cards appear here -->
+</section>
+
+
+<p id="noResultMessage" style="text-align:center; color:red; display:none;">
+    No hostel found in this city
+</p>
+
+
+
+<script>
+function toggleInfo(id) {
+  const box
+   = document.getElementById(id);
+  box.style.display = box.style.display === "block" ? "none" : "block";
+}
+</script>
+
+<footer>
+    <h4>© 2026 Stay Finder | Only for Student Hostels</h4>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
