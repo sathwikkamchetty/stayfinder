@@ -165,7 +165,7 @@ function displayHostels(list) {
 <div class="more-info" id="info1">
 <ul>
   <li><p><b>Rooms:</b> 1,2,3 & 4 Sharing</p></li>
-<li>  <p><b>Amenities:</b> <ol><li>WiFi</li><li>24/7 CCTV</li><li>Power Backup</li><li>Hot Water</li></ol>
+<li>  <p><b>Amenities:</b> <ol><li>WiFi</li><li>24/7 CCTV</li><li>Power Backup</li><li>Hot Water.</li></ol>
   <li><p><b>Meals:</b> Breakfast & Dinner</p></li>
   <li><p><b>Laundry:</b> Available</p></li>
   <li><p><b>Contact:</b> 9876543210</p></li>
